@@ -1,0 +1,1630 @@
+body{
+    color: #FFF;
+    font-family: "futura", "Helvetica", "Arial", "Verdana", sans-serif;
+    font-size: 62.5%;
+}
+
+/*Logo*/
+nav>img{
+    position: absolute;
+    float: left;
+    width: auto;
+    height: 50px;
+    top: 50%;
+    left: 15px;
+    transform: translate(0%, -50%);
+}
+/*END Logo*/
+
+/*hamburger*/
+nav .hamburger div{
+    display: block;
+    width: 35px;
+    height: 4px;
+    margin: 8px 0;
+    background-color: #F68D42;
+}
+
+nav .hamburger{
+    position: absolute;
+    top:50%;
+    right: 25px;
+    transform: translate(0, -50%);
+    cursor: url(assets/cursor.cur), auto;
+}
+/*END hamburger*/
+
+/*Navigation*/
+nav{
+    background-color: #FFF;
+}
+
+nav:first-child{
+    position: relative;
+    width: 100%;
+    height: 75px;
+}
+
+nav:first-child ul{
+    display:none;
+    position: absolute;
+    width: 100%;
+    top: 75px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: #FFF;
+    z-index: 99999999;
+    text-align: center;
+}
+
+nav:first-child li{
+    display: block;
+    margin: 25px 0;
+    font-size: 2.4em;
+}
+
+nav:first-child a {
+    color: #F68D42;
+    text-decoration: none;
+}
+
+/* just li*/
+nav:first-child li{
+    color: #F68D42;
+}
+
+nav:first-child li img{
+    position: absolute;
+    width: auto;
+    height: 50px;
+    opacity: 1;
+}
+
+nav:first-child li:nth-child(1) img{
+    top: 8px;
+    right: 50%;
+    transform: translate(50%, 0);
+}
+
+nav:first-child li:nth-child(2) img{
+    top: 57px;
+    right: 50%;
+    transform: translate(50%, 0);
+}
+
+nav:first-child li:nth-child(3) img{
+    top: 108px;
+    right: 50%;
+    transform: translate(50%, 0);
+}
+
+nav:first-child li:nth-child(4) img{
+    top: 155px;
+    right: 50%;
+    transform: translate(50%, 0);
+}
+/*END of just li*/
+
+/*foot prints*/
+nav:first-child a:link img, nav:first-child a:visited img{
+    position: absolute;
+    width: auto;
+    height: 50px;
+    opacity: 0;
+}
+
+nav:first-child a:hover img, nav:first-child a:active img, nav:first-child a:focus img{
+    opacity: 1;
+}
+
+nav:first-child li:nth-child(1) a img{
+    top: 8px;
+    right: 50%;
+    transform: translate(50%, 0);
+}
+
+nav:first-child li:nth-child(2) a img{
+    top: 57px;
+    right: 50%;
+    transform: translate(50%, 0);
+}
+
+nav:first-child li:nth-child(3) a img{
+    top: 108px;
+    right: 50%;
+    transform: translate(50%, 0);
+}
+
+nav:first-child li:nth-child(4) a img{
+    top: 155px;
+    right: 50%;
+    transform: translate(50%, 0);
+    
+}
+/*END foot prints*/
+/*END Navigation*/
+
+/*Secondary nav*/
+#cast nav:nth-child(2){
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background-color:#F68D42;
+}
+
+#cast nav:nth-child(2) ul{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    text-align: center;
+}
+
+#cast nav:nth-child(2) li{
+    display: inline-block;
+    font-size: 2.4em;
+}
+
+#cast nav:nth-child(2) li:first-child{
+     margin-right: 3em;
+}
+
+#cast nav:nth-child(2) a:link, #cast nav:nth-child(2) a:visited{
+    color: #FFF;
+    text-decoration: none;
+}
+
+#cast nav:nth-child(2) a:hover, #cast nav:nth-child(2) a:active, #cast nav:nth-child(2) a:focus{
+    color: #7EA4CF;
+}
+/*END Secondary nav*/
+
+/*Fold 1*/
+#homepage main div:nth-child(1){
+    position: relative;
+    width: 100%;
+    height: 509px;
+}
+
+/*movie title*/
+#homepage h1{
+    padding-top: 4rem;
+    font-size: 4.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#homepage main div:nth-child(1) h2{
+    position: absolute;
+    width: 90%;
+    top: 6em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: "futura", "Helvetica", "Arial", "Verdana", sans-serif;;
+    text-align: center;
+    font-size: 2.02em;
+}
+/*END movie title*/
+
+/*buy tickets*/
+a{
+    text-decoration: none;
+}
+
+div:nth-child(1) .button{
+    display: block;
+    width: 260px;
+    margin: 16.2rem  auto 0;
+    padding: 20px 70px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FFF;
+    color: #F68D42;
+    font-family: "Chewy", "Comic Sans MS", "Trebuchet MS", sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+div:nth-child(1) .button:hover{
+    transition: 0.5s ease;
+    background-color:  #3B9779; 
+    color: #FFF;
+    cursor: url(assets/cursor.cur), auto;
+}
+/*END buy tickets*/
+
+/*Guinea Pig*/
+#homepage main div:nth-child(1) img{
+    position: absolute;
+    width: 21em;
+    height: auto;
+    top: 12.5rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+/*END Guinea Pig*/
+/*END Fold 1*/
+
+/*Fold 2*/
+#homepage main div:nth-child(2){
+    position: relative;
+    width: 100%;
+    height: 890px;
+}
+
+/*Characters SVG*/
+#homepage main div:nth-child(2) img{
+    display: block;
+    position: absolute;
+    width: 35em;
+    height: auto;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin: 3rem 0 4rem 0;
+}
+/*END Characters SVG*/
+
+h2{
+    display: block;
+    position: absolute;
+    top: 8.2em;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: "Chewy", "Comic Sans MS", "Trebuchet MS", sans-serif;
+    font-size: 4.2em;
+}
+
+#homepage main div:nth-child(2) p{
+    position: absolute;
+    width: 75%;
+    top: 26em;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 1.6em;
+    line-height: 1.3em;
+}
+
+/*poster PDF button*/
+div:nth-child(2) .button{
+    display: block;
+    position: absolute;
+    width: 260px;
+    top: 29em;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 20px 0;
+    border: none;
+    border-radius: 50px;
+    background-color: #FFF;
+    color: #3B9779;
+    font-family: "Chewy", "Comic Sans MS", "Trebuchet MS", sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#homepage main div:nth-child(2) .button:hover{
+    transition: 0.5s ease;
+    background-color:  #F68D42; 
+    color: #FFF;
+    cursor: url(assets/cursor.cur), auto;
+}
+/*END poster PDF*/
+/*END Fold 2*/
+
+/*footer*/
+footer{
+    height: 155px;
+    background-color: #FFF;
+    color: #F68D42;
+    font-size: 2em;
+}
+
+footer ul li a:link, footer a:visited{
+    color: #F68D42;
+    text-decoration: none;
+}
+
+footer ul li a:hover, footer a:active, footer a:focus{
+    color:#3B9779
+}
+
+footer ul:first-child li:nth-child(3) a, footer ul:first-child li:nth-child(4) a{
+    opacity: 0.7;
+}
+
+footer div{
+    padding-top: 0.8em;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+footer ul{
+    display: none;
+}
+
+/*Awesome font*/
+.fa{
+    padding-top: 0.3em;
+    font-size: 2em;
+}
+
+footer div a:visited, footer div a:link{
+    color: #F68D42;
+}
+
+footer div a:active, footer div a:hover, footer div a:focus{
+    color:#3B9779;
+}
+/*END Awesome font*/
+/*END footer*/
+
+/********CAST********/
+/*images*/
+#cast main div div{
+    display: block;
+    position: absolute;
+    width: 32em;
+    height: 32em;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    animation: play 3.5s steps(2) infinite;
+}
+
+#cast div .love {
+    margin: 30px 0 50px 0;
+    background: url("assets/love.svg") no-repeat;
+    background-size: 200%;
+}
+
+#cast div .lucky {
+    margin: 20px 0 50px 0;
+    background: url("assets/lucky_piesio.svg") no-repeat;
+    background-size: 200%;
+}
+
+#cast div .pig {
+    margin: 30px 0 50px 0;
+    background: url("assets/pig_layers.svg") no-repeat;
+    background-size: 200%;
+}
+
+#cast div .rodney {
+    margin: 40px 0 50px 0;
+    background: url("assets/swinka_morska.svg") no-repeat;
+    background-size: 200%;
+}
+
+#cast div .tiger {
+    margin: 30px 0 50px 0;
+    background: url("assets/tiger.svg") no-repeat;
+    background-size: 200%;
+}
+
+#cast div .murphy {
+    margin: 30px 0 50px 0;
+    background: url("assets/murthy.svg") no-repeat;
+    background-size: 200%;
+}
+
+#cast div .wilson {
+    margin: 30px 0 50px 0;
+    background: url("assets/wilson.svg") no-repeat;
+    background-size: 200%;
+}
+/*END images*/
+
+/*animation defined*/
+@keyframes play {
+   100% { background-position: 200% 0%; }
+}
+/*END animation defined*/
+
+/*Folds*/
+#cast main > div{
+    position: relative;
+    height: 710px;
+    width: auto;
+}
+/*END Folds*/
+
+/*text*/
+#cast h1{
+    position: absolute;
+    width: 90%;
+    top: 9em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    font-family: "Chewy", "Comic Sans MS", "Trebuchet MS", sans-serif;
+    font-size: 4.2em;
+}
+
+#cast main p{
+    position: absolute;
+    width: 75%;
+    top: 28.5em;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 1.6em;
+    line-height: 1.5em;
+}
+/********END CAST********/
+
+/********REFERENCES********/
+#references main div{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-color: #3B9779;
+}
+
+#references h1{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: "Chewy", "Comic Sans MS", "Trebuchet MS", sans-serif;
+    font-size: 4.2em;
+}
+
+#references main a:link, #references main a:visited{
+    color: #FFF;
+    text-decoration: none;
+}
+
+#references main a:hover, #references main a:active, #references main a:focus {
+    color: #F68D42;
+    text-decoration: none;
+}
+
+#references main ul{
+    position: absolute;
+    top: 10em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    line-height: 3em;
+    font-size: 1.6em;
+    text-align: center;
+}
+/********END REFERENCES********/
+
+/********404 ERROR********/
+#error main div{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-color: #6D4EA0;
+}
+
+#error div .cry_pig{
+    display: block;
+    position: absolute;
+    width: 32em;
+    height: 32em;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin: 30px 0 50px 0;
+    background: url("assets/swinka_morska_crying.svg") no-repeat;
+    background-size: 200%;
+    animation: play 3.5s steps(2) infinite;
+}
+
+#error main div h1{
+    position: absolute;
+    width: 90%;
+    top: 9em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    font-family: "Chewy", "Comic Sans MS", "Trebuchet MS", sans-serif;
+    font-size: 4.2em;
+}
+
+#error main div p{
+    position: absolute;
+    width: 75%;
+    top: 28.5em;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 1.6em;
+    line-height: 1.5em;
+}
+/********END 404 ERROR********/
+
+/********TICKETS********/
+/*Fold 1*/
+#tickets main>div:first-child{
+    position: relative;
+    width: 100%;
+    height: 950px;
+}
+
+#tickets main>div:nth-child(1) .popcorn{
+    display: block;
+    position: absolute;
+    width: 32em;
+    height: 32em;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin: 30px 0 50px 0;
+    background: url("assets/popcorn.svg") no-repeat;
+    background-size: 200%;
+    animation: play 3.5s steps(2) infinite;
+}
+
+#tickets main>div:nth-child(1) h1{
+    position: absolute;
+    width: 90%;
+    top: 9em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    font-family: "Chewy", "Comic Sans MS", "Trebuchet MS", sans-serif;
+    font-size: 4.2em;
+}
+
+/*table*/
+table{
+    position: absolute;
+    width: 80%;
+    top: 28.5rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+td{
+    padding: 10px 0 7px 7px;
+    font-size: 1.6em;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(225, 255, 255, 0.4);
+}
+/*END table*/
+
+/*Price*/
+#tickets main>div:nth-child(1) p{
+    position: absolute;
+    width: 80%;
+    top: 44em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    line-height: 1.3em;
+    font-size: 1.6em;
+}
+
+#tickets main>div p span{
+    font-weight: bold;
+}
+/*END Price*/
+
+/*Button*/
+#tickets main>div:nth-child(1) .button{
+    position: absolute;
+    width: 260px;
+    top: 34em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 0 0 0 0;
+    padding: 20px 0;
+    color: #6D4EA0;
+}
+
+#tickets main>div:nth-child(1) .button:hover{
+    color: #FFF;
+    background-color: #3B9779;
+    cursor: url(assets/cursor.cur), auto;
+}
+/*END button*/
+/*END Fold 1*/
+
+/*Fold 2*/
+#tickets main>div:nth-child(2){
+    position: relative;
+    width: 100%;
+    height: 770px;
+    
+}
+
+#tickets main>div:nth-child(2) h1{
+    position: absolute;
+    width: 90%;
+    top: 1.5em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    font-family: "Chewy", "Comic Sans MS", "Trebuchet MS", sans-serif;
+    font-size: 4.2em;
+}
+
+#tickets main>div:nth-child(2) p{
+    position: absolute;
+    width: 70%;
+    top: 9.5em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    line-height: 1.3em;
+    font-size: 1.6em;
+}
+
+/*map*/
+#tickets #map{
+    position: absolute;
+    width: 70%;
+    height: 270px;
+    top: 43em;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+/*END map*/
+/*END Fold 2*/
+
+/********END TICKETS********/
+
+
+
+/*MEDIA QUERIES*/
+/*768-1010*/
+@media screen and (max-width: 1010px) and (min-width: 768px) {
+
+/*hamburger*/
+.hamburger{
+    display: none;
+}
+/*END hamburger*/    
+    
+/*Navigation*/
+nav:first-child ul{
+    display:block;
+    width: auto;
+    top: 50%;
+    left: auto;
+    right: 0px;
+    transform: translate(0%, -50%);
+    text-align: left;
+}
+    
+nav:first-child li{
+    display: inline-block;
+    margin: 0 3em 0 0;
+}
+
+/* just li*/
+nav:first-child li img{
+    height: 75px;
+}
+
+nav:first-child li:nth-child(1) img{
+    top:-27px;
+    right: 467px;
+    transform: translate(0%,0%);
+}
+
+nav:first-child li:nth-child(2) img{
+    top:-27px;
+    right: 328px;
+    transform: translate(0%,0%);
+}
+
+nav:first-child li:nth-child(3) img{
+    top:-27px;
+    right: 197px;
+    transform: translate(0%,0%);
+}
+
+nav:first-child li:nth-child(4) img{
+    top:-27px;
+    right: 67px;
+    transform: translate(0%,0%);
+}
+/*END of just li*/
+
+
+/*foot prints*/
+nav:first-child a:link img, nav:first-child a:visited img{
+    height: 75px;
+}
+
+
+nav:first-child li:nth-child(1) a img{
+    top:-27px;
+    right: 467px;
+    transform: translate(0%,0%);
+}
+
+nav:first-child li:nth-child(2) a img{
+    top:-27px;
+   right: 328px;
+    transform: translate(0%,0%);
+}
+
+nav:first-child li:nth-child(3) a img{
+    top:-27px;
+    right: 197px;
+    transform: translate(0%,0%);
+}
+
+nav:first-child li:nth-child(4) a img{
+    top:-27px;
+    right: 67px;
+    transform: translate(0%,0%);
+    
+}
+/*END foot prints*/
+/*END Navigation*/
+    
+/********HOMEPAGE********/
+/*Fold 1*/
+#homepage main div:nth-child(1){
+    height: 628px;
+}
+    
+/*movie title*/
+#homepage h1{
+    padding-top: 70px;
+    font-size: 9.5em;
+}
+    
+#homepage main div:nth-child(1) h2{
+    top: 177px;
+    font-size: 3em;
+    letter-spacing: 3.5px;
+}
+/*END movie title*/
+    
+/*buy tickets*/
+div:nth-child(1) .button{
+    margin: 18.8rem  auto 0 ;       
+}
+/*END buy tickets*/
+    
+/*Guinea Pig*/
+#homepage main div:nth-child(1) img{
+    width: 25em;
+    top: 16.5rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 99999;
+}
+/*END Guinea Pig*/
+/*END Fold 1*/
+    
+/*FOLD 2*/
+#homepage main div:nth-child(2){
+    height: 663px;
+}
+
+/*Characters SVG*/
+#homepage main div:nth-child(2) img{
+    width: 33em;
+    left: 80px;
+    transform: translate(0%, 0%);
+    margin: 5.5rem 0em 4rem 0;
+}
+/*END Characters SVG*/ 
+    
+h2{
+    top: 1.15em;
+    left: 60%;
+    transform: translate(0%, 0%);
+}
+    
+#homepage main div:nth-child(2) p{
+    width: 30%;
+    top: 8.5em;
+    left: 60%;
+    transform: translate(0%, 0%);
+}
+    
+/*poster PDFs*/
+div:nth-child(2) .button{
+    top: 19.5em;
+}
+/*END poster PDF*/
+/*END fold 2*/
+/*******END HOMEPAGE********/
+   
+/*******CAST********/
+    
+/*images*/
+#cast div .love {
+    left: auto;
+    right: 80px;
+    transform: translate(0%, 0%);
+    margin: 30px 0 50px 0;
+}
+    
+#cast div .lucky {
+    left: 80px;
+    transform: translate(0%, 0%);
+    margin: 20px 0 50px 0;
+}
+    
+#cast div .pig {
+    left: auto;
+    right: 80px;
+    transform: translate(0%, 0%);
+    margin: 30px 0 50px 0;
+}
+    
+#cast div .rodney {
+    left: 80px;
+    transform: translate(0%, 0%);
+    margin: 40px 0 50px 0;
+}
+    
+#cast div .tiger {
+    left: auto;
+    right: 80px;
+    transform: translate(0%, 0%);
+    margin: 30px 0 50px 0;
+}
+    
+#cast div .murphy {
+    left: 80px;
+    transform: translate(0%, 0%);
+    margin: 30px 0 50px 0;
+}
+    
+#cast div .wilson {
+    left: auto;
+    right: 80px;
+    transform: translate(0%, 0%);
+    margin: 30px 0 50px 0;
+}
+/*END images*/
+ 
+/*Folds*/
+#cast main > div{
+    width: 100%;
+    height: 462px;
+}
+/*END Folds*/
+
+#cast div:nth-child(even) h1{
+    width: 40%;
+    top: 80px;
+    left: 55%;
+    transform: translate(0, 0);
+    text-align: left;
+}
+    
+#cast main div:nth-child(even) p{
+    width: 30%;
+    top: 10em;
+    left: 55%;
+    transform: translate(0%, 0%);
+}
+    
+#cast div:nth-child(odd) h1{
+    width: 40%;
+    top: 80px;
+    left: 12%;
+    transform: translate(0, 0);
+    text-align: left;
+}
+    
+#cast main div:nth-child(odd) p{
+    width: 30%;
+    top: 10em;
+    left: 12%;
+    transform: translate(0%, 0%);
+}
+/*******END CAST********/
+    
+/*footer*/
+footer{
+    height: 215px;
+    padding-top: 1em;
+}
+    
+footer ul{
+    display: block;
+}
+    
+footer ul:nth-child(1){
+    float: left; 
+    margin-left: 4em;
+}
+    
+footer ul:nth-child(2){
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+    
+footer ul li{
+    padding-top: 0.5em
+}
+    
+footer div{
+    float: right;
+    padding-top: 0em;
+    margin-right: 4em;
+}
+    
+footer p:last-child{
+    display: inline-block;
+    clear: both;
+    float: left;
+    margin-left: 4em;
+    padding-top: 1.5em;
+}
+/*END footer*/
+    
+/********REFERENCES********/
+#references main div{
+    height: 800px;
+}
+    
+#references h1{
+    top: 80px;
+    left: 12%;
+    transform: translate(0%, 0);
+}
+    
+#references main ul{
+    position: absolute;
+    left: 12%;
+    transform: translate(0%, 0);
+    text-align: left;
+}
+/********END REFERENCES********/
+    
+/*******404 ERROR*******/
+#error main div{
+    height: 800px;
+}
+    
+ #error div .cry_pig{
+    left: auto;
+    right: 80px;
+    transform: translate(-0, 0%);
+}
+    
+#error main div h1{
+    width: 40%;
+    top: 80px;
+    left: 12%;
+    transform: translate(0%, 0);
+    text-align: left;
+}
+    
+#error main div p{
+    width: 30%;
+    top: 10em;
+    left: 12%;
+    transform: translate(0%, 0%);
+}
+/*******END 404 ERROR*******/
+    
+/********TICKETS********/
+/*Fold 1*/
+#tickets main>div:first-child{
+    height: 680px;
+}
+    
+#tickets main>div:nth-child(1) .popcorn{
+    right: 3%;
+    left: auto;
+    transform: translate(0%, 0%);
+    margin: 70px 0 50px 0;
+}
+    
+#tickets main>div:nth-child(1) h1{
+    width: 40%;
+    top: 80px;
+    left: 12%;
+    transform: translate(0%, 0);
+    text-align: left;
+}
+    
+/*table*/
+table{
+    width: 45%;
+    top: 10rem;
+    left: 12%;
+    transform: translate(0%, 0);
+}
+/*END table*/
+
+/*Price*/
+#tickets main>div:nth-child(1) p{
+    width: 45%;
+    top: 25em;
+    left: 12%;
+    transform: translate(0%, 0);
+}
+/*END Price*/
+
+/*Button*/
+#tickets main>div:nth-child(1) .button{
+    top: 22.7em; 
+}
+/*END button*/
+/*END Fold 1*/
+
+/*Fold 2*/
+#tickets main>div:nth-child(2){
+    height: 462px;
+}
+    
+#tickets main>div:nth-child(2) h1{
+    width: 40%;
+    top: 80px;
+    left: 55%;
+    transform: translate(0%, 0);
+    text-align: left;
+}
+    
+#tickets main>div:nth-child(2) p{
+    width: 30%;
+    top: 10em;
+    left: 55%;
+    transform: translate(0%, 0);
+}
+    
+/*map*/
+#tickets #map{
+    width: 30%;
+    height: 290px;
+    top: 8.7em;
+    left: 12%;
+    transform: translate(0%,0);
+}
+/*END map*/
+/*END Fold 2*/
+/********END TICKETS********/
+}
+/*END 768-1010*/
+
+
+/*min 1011*/
+@media screen and (min-width: 1011px){
+
+/*hamburger*/
+.hamburger{
+    display: none;
+}
+/*END hamburger*/    
+    
+/*Navigation*/
+nav:first-child ul{
+    display:block;
+    width: auto;
+    top: 50%;
+    left: auto;
+    right: 0px;
+    transform: translate(0%, -50%);
+    text-align: left;
+}
+    
+nav:first-child li{
+    display: inline-block;
+    margin: 0 3em 0 0;
+}
+
+/* just li*/
+nav:first-child li img{
+    height: 75px;
+}
+
+nav:first-child li:nth-child(1) img{
+    top:-27px;
+    right: 467px;
+    transform: translate(0%,0%);
+}
+
+nav:first-child li:nth-child(2) img{
+    top:-27px;
+    right: 328px;
+    transform: translate(0%,0%);
+}
+
+nav:first-child li:nth-child(3) img{
+    top:-27px;
+    right: 197px;
+    transform: translate(0%,0%);
+}
+
+nav:first-child li:nth-child(4) img{
+    top:-27px;
+    right: 67px;
+    transform: translate(0%,0%);
+}
+/*END of just li*/
+
+
+/*foot prints*/
+nav:first-child a:link img, nav:first-child a:visited img{
+    height: 75px;
+}
+    
+nav:first-child li:nth-child(1) a img{
+    top:-27px;
+    right: 467px;
+    transform: translate(0%,0%);
+}
+
+nav:first-child li:nth-child(2) a img{
+    top:-27px;
+    right: 328px;
+    transform: translate(0%,0%);
+}
+
+nav:first-child li:nth-child(3) a img{
+    top:-27px;
+    right: 197px;
+    transform: translate(0%,0%);
+}
+
+nav:first-child li:nth-child(4) a img{
+    top:-27px;
+    right: 67px;
+    transform: translate(0%,0%);
+    
+}
+/*END foot prints*/
+/*END Navigation*/    
+
+/*Fold 1*/
+#homepage main div:nth-child(1){
+    height: 700px;
+}
+    
+/*movie title*/
+#homepage h1{
+    padding-top: 90px;
+    font-size: 13em;      
+}
+    
+#homepage main div:nth-child(1) h2{
+    top: 235px;
+    font-size: 3.5em;
+    letter-spacing: 7px;
+}
+/*END movie title*/
+    
+/*buy tickets*/
+div:nth-child(1) .button{
+    width: 340px;
+    margin: 22.2rem  auto 0;
+    font-size: 3.6em;
+}
+/*END buy tickets*/
+    
+/*Guinea Pig*/
+#homepage main div:nth-child(1) img{
+    width: 29em;
+    top: 34em;        
+}
+/*END Guinea Pig*/
+/*END fold 1*/
+    
+/*fold 2*/
+#homepage main div:nth-child(2){
+    height: 860px;
+}
+    
+/*Characters SVG*/
+#homepage main div:nth-child(2) img{
+    width: 35%;
+    left: 8%;
+    transform: translate(0%, 0%);
+    margin: 8rem 0 4rem 0;
+}
+/*END Characters SVG*/
+    
+h2{
+    top: 2em;
+    left: 55%;
+    transform: translate(0%, 0%);
+    font-size: 6em;
+}
+
+#homepage main div:nth-child(2) p{
+    width: 35%;
+    top: 15.5em;
+    left: 55%;
+    transform: translate(0%, 0%);
+    font-size: 1.6em;
+    line-height: 1.4em;
+}
+
+/*poster PDFs*/
+div:nth-child(2) .button{
+    width: 340px;
+    top: 18.5em;
+    font-size: 3.6em;
+}
+/*END poster PDF*/
+    
+/*footer*/
+footer{
+    height: 215px;
+    padding-top: 1em;
+}
+    
+footer ul{
+    display: block;
+}
+    
+footer ul:nth-child(1){
+    float: left;
+    margin-left: 7em;
+}
+    
+footer ul ul li{
+    opacity: 0.7;
+}
+    
+footer ul:nth-child(2){
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+    
+footer ul li{
+    padding-top: 0.5em
+}
+    
+footer div{
+    float: right;
+    margin-right: 7em;
+    padding-top: 0em;
+}
+    
+footer p:last-child{
+    display: inline-block;
+    clear: both;
+    float: left;
+    margin-left: 7em;
+    padding-top: 1.5em;
+}
+/*END footer*/
+/*******CAST********/
+    
+/*images*/
+#cast div .love {
+    width: 35%;
+    height: 0%;
+    top: 50%;
+    left: auto;
+    right: 8%;
+    transform: translate(0%, -50%);
+    margin: 0 0 0 0;
+    padding-bottom: 35%;
+}
+    
+#cast div .lucky {
+    width: 35%;
+    height: 0;
+    top: 50%;
+    left: 8%;
+    transform: translate(0%, -50%);
+    margin: 0 0 0 0;
+    padding-bottom: 35%;
+}
+    
+#cast div .pig {
+    width: 35%;
+    height: 0;
+    top: 50%;
+    left: auto;
+    right: 8%;
+    transform: translate(0%, -50%);
+    margin: 0 0 0 0;
+    padding-bottom: 35%;
+}
+    
+#cast div .rodney {
+    width: 35%;
+    height: 0;
+    top: 50%;
+    left: 8%;
+    transform: translate(0%, -50%);
+    margin: 0 0 0 0;
+    padding-bottom: 35%;
+}
+    
+#cast div .tiger {
+    width: 35%;
+    height: 0;
+    top: 50%;
+    left: auto;
+    right: 8%;
+    transform: translate(0%, -50%);
+    margin: 0 0 0 0;
+    padding-bottom: 35%;
+}
+    
+#cast div .murphy {
+    width: 35%;
+    height: 0;
+    top: 50%;
+    left: 8%;
+    transform: translate(0%, -50%);
+    margin: 0 0 0 0;
+    padding-bottom: 35%;
+}
+    
+#cast div .wilson {
+    width: 35%;
+    height: 35%;
+    top: 50%;
+    left: auto;
+    right: 8%;
+    transform: translate(0%, -50%);
+    margin: 0 0 0 0;
+    padding-bottom: 35%;
+}
+/*END images*/
+ 
+/*Folds*/
+#cast main > div{
+    width: 100%;
+    height: 628px;
+}
+/*END Folds*/
+
+/*text*/
+#cast div:nth-child(even) h1{
+    width: 40%;
+    top: 150px;
+    left: 50%;
+    transform: translate(0, 0);
+    text-align: left;
+    font-size: 6em;
+}
+    
+#cast main div:nth-child(even) p{
+    width: 40%;
+    top: 13.5em;
+    left: 50%;
+    transform: translate(0%, 0%);
+    font-size: 1.9em;
+}
+    
+#cast div:nth-child(odd) h1{
+    width: 40%;
+    top: 150px;
+    left: 12%;
+    transform: translate(0, 0);
+    text-align: left;
+    font-size: 6em;
+}
+    
+#cast main div:nth-child(odd) p{
+    width: 40%;
+    top: 13.5em;
+    left: 12%;
+    transform: translate(0%, 0%);
+    font-size: 1.9em;
+}
+/*******END CAST********/
+    
+/********REFERENCES********/
+#references main div{
+    height: 900px;
+}
+    
+#references h1{
+    position: absolute;
+    top: 150px;
+    left: 12%;
+    transform: translate(0%, 0);
+    font-size: 6em;
+}
+
+#references main ul{
+    position: absolute;
+    top: 13.5em;
+    left: 12%;
+    transform: translate(0%, 0);
+    text-align: left;
+    font-size: 1.9em;
+}
+/********END REFERENCES********/
+    
+/********404 ERROR********/
+#error main div{
+    height: 900px;
+}
+#error div .cry_pig{
+    width: 37%;
+    height: 0%;
+    top: 7em;
+    left: auto;
+    right: 8%;
+    transform: translate(0%, 0%);
+    margin: 0 0 0 0;
+    padding-bottom: 37%;
+}
+    
+#error main div h1{
+    width: 40%;
+    top: 150px;
+    left: 12%;
+    transform: translate(0, 0);
+    text-align: left;
+    font-size: 6em;
+}
+    
+#error main div p{
+    width: 40%;
+    top: 13.5em;
+    left: 12%;
+    transform: translate(0%, 0%);
+    font-size: 1.9em;
+}
+/********END 404 ERROR********/
+    
+/********TICKETS********/
+/*Fold 1*/
+#tickets main>div:first-child{
+    height: 771px;
+}
+    
+#tickets main>div:nth-child(1) .popcorn{
+    width: 36%;
+    height: 0;
+    top: 50%;
+    right: 8%;
+    left: auto;
+    transform: translate(0%, -50%);
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 36%;
+}
+    
+#tickets main>div:nth-child(1) h1{
+    width: 40%;
+    top: 150px;
+    left: 12%;
+    transform: translate(0%, 0);
+    text-align: left;
+    font-size: 6em;
+}
+    
+/*table*/
+table{
+    width: 40%;
+    top: 16.5rem;
+    left: 12%;
+    transform: translate(0%, 0);
+}
+    
+td{
+    font-size: 1.9em;
+}
+/*END table*/
+
+/*Price*/
+#tickets main>div:nth-child(1) p{
+    width: 40%;
+    top: 28.5em;
+    left: 12%;
+    transform: translate(0%, 0);
+    font-size: 1.9em;
+}
+/*END Price*/
+
+/*Button*/
+#tickets main>div:nth-child(1) .button{
+    width: 340px;
+    top: 20em;
+    font-size: 3.6em;
+}
+/*END button*/
+/*END Fold 1*/
+
+/*Fold 2*/
+#tickets main>div:nth-child(2){
+    height: 628px;
+}
+    
+#tickets main>div:nth-child(2) h1{
+    width: 40%;
+    top: 150px;
+    left: 55%;
+    transform: translate(0%, 0);
+    text-align: left;
+    font-size: 6em;
+}
+    
+#tickets main>div:nth-child(2) p{
+    top: 13.5em;
+    width: 30%;
+    left: 55%;
+    transform: translate(0%, 0);
+    font-size: 1.9em;
+}
+    
+/*map*/
+#tickets #map{
+    width: 30%;
+    height: 350px;
+    top: 16.5em;
+    left: 12%;
+    transform: translate(0%,0);
+}
+/*END map*/
+/*END Fold 2*/
+/********END TICKETS********/
+}
+/*END min 1011*/
+
+/*Colour changing*/
+/*Starting backgrounds*/
+.tickets_start{
+    background: #6D4EA0;
+}
+
+.homepage_start{
+    background: #F68D42;
+}
+
+.cast_start{
+    background: #7EA4CF;
+}
+/*END Starting backgrounds*/
+
+.orange{
+    background: #F68D42;
+    transition: background-color 2s ease;
+}
+
+.green{
+    background: #3B9779;
+    transition: background-color 2s ease;
+}
+
+.purple{
+    background: #6D4EA0;
+    transition: background-color 2s ease;
+}
+/*cast colours*/
+.blue_dog{
+    background: #7EA4CF;
+    transition: background-color 2s ease;
+}
+
+.blue_pig{
+    background: #4786A5;
+    transition: background-color 2s ease;
+}
+
+.dark{
+    background: #3857A7;
+    transition: background-color 2s ease;
+}
+
+.yellow{
+    background: #F6B944;
+    transition: background-color 2s ease;
+}
+/*END cast colours*/
+/*END Colour changing*/
+
+/*arrow top*/
+.fa-angle-up{
+    display: none;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    padding: 7px 15px;
+    z-index: 99999;
+    color: #FFF;
+    background-color: rgba(245,140,66,0.8);
+    font-size: 40px;
+}
+
+.fa-angle-up:hover{
+    z-index: 99999;
+    opacity: 0.3;
+    cursor: url(assets/cursor.cur), auto;
+}
+/*END arrow top*/

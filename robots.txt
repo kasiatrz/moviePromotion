@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+
+Sitemap: http://kasiatrzcinska.uk/applied_art_for_the_web/movie/sitemap.xml
